@@ -185,16 +185,16 @@ There is 9 Notebooks containing the Project work as following
 - Loading the data from two files “Data1.csv”, and “Data2.csv” , Then concating them into a DataFrame called “Data”
 - Displaying the “Data” DataFrame
     
-    ![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image1.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image1.png)
+    ![README/image1.png](README/image1.png)
     
 - The data contains 8.7 M records and 9 columns.
 - Counting the Unique values for each column.
     
-    ![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image2.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image2.png)
+    ![README/image2.png](README/image2.png)
     
 - Checking For Nulls for each column and getting Its percentage
     
-    ![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image3.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image3.png)
+    ![README/image3.png](README/image3.png)
     
     - There is 3 columns with missing values
         - Category_code: 98.36% Missing Values
@@ -202,11 +202,11 @@ There is 9 Notebooks containing the Project work as following
         - User_session: 0.02% Missing values
 - Visualizing the missing values using Missingno to get better understanding
     
-    ![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image4.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image4.png)
+    ![README/image4.png](README/image4.png)
     
 - Then we count the zeros in the data so we can check if there is any zero values that doesn’t make sense.
     
-    ![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image5.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image5.png)
+    ![README/image5.png](README/image5.png)
     
 - There is around 17.6 K zeros in the price colum
 
@@ -225,7 +225,7 @@ We will start by dealing with the Brand column.
 - We will start by taking a sample of 1M records from the data to check the accuracy on the model on it so we can know that if the model is can be used to classify the unknown records to a brand.
     - The sample we are testing the model on has around 41% missing values in the brand column like the whole data.
         
-        ![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image6.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image6.png)
+        ![README/image6.png](README/image6.png)
         
     - The Y is the Brand Column
     - The X Features are
@@ -244,7 +244,7 @@ We will start by dealing with the Brand column.
             - print(acc_rfc,"%")
         - The Accuracy we got from the RandomForest Classifier is
             
-            ![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image7.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image7.png)
+            ![README/image7.png](README/image7.png)
             
         - The 100% accuracy may look like over fitting but the classification is just very straight forward.
         think of it as a huge If else statement.
@@ -339,31 +339,31 @@ We used DNN with 4 hidden layers a 50 epochs.
 
 1-First we have about 17500 zero in price column, we decide to fill with median, because this column right skewed that is mean this column has outliers.
 
-![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image8.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image8.png)
+![README/image8.png](README/image8.png)
 
 2-encoding the data and replace the value that express the nan after encoding which is 236
 
-![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image9.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image9.png)
+![README/image9.png](README/image9.png)
 
 3-standardized data before model to help the optimization algorithm to reach
 
 to global minima.
 
-![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image9.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image9.png)
+![README/image9.png](README/image9.png)
 
-![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image10.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image10.png)
+![README/image10.png](README/image10.png)
 
 4-Define the DNN model and combine the model
 
-![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image11.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image11.png)
+![README/image11.png](README/image11.png)
 
 5-train and run the model
 
-![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image12.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image12.png)
+![README/image12.png](README/image12.png)
 
 7-Predict the missing brand
 
-![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image13.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image13.png)
+![README/image13.png](README/image13.png)
 
 "This model works well until it reaches epoch 38, then it decides to stop, and I don't know why. Anyway, we have reached an accuracy that is not good at all, which is 51%. Therefore, we decided to use another algorithm, which is Random Forest.”
 
@@ -399,7 +399,7 @@ to global minima.
 
 - PLOT THE PERCENTAGE OF EACH EVENT
 
-![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image14.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image14.png)
+![README/image14.png](README/image14.png)
 
 - CALCULATE THE NUMBER OF VIWES
 
@@ -423,7 +423,7 @@ November 1531016.90 & October 1211538.43
 
 - USER EVENT BY MONTH
 
-![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image16.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image16.png)
+![README/image16.png](README/image16.png)
 
 ### PRODUCT_ID COLUMN
 
@@ -432,7 +432,7 @@ November 1531016.90 & October 1211538.43
 > CALCULATE THE MEAN SALES MADE BY EACH PRODUCT
 > 
 
-![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image17.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image17.png)
+![README/image17.png](README/image17.png)
 
 - Top 30 products
 
@@ -442,17 +442,17 @@ November 1531016.90 & October 1211538.43
 
 Explore IF THERE are ANY TRENDS IN THE PRODUCT SALES IN A SPECIFIC DAY OR A SPECIFIC HOUR
 
-![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image19.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image19.png)
+![README/image19.png](README/image19.png)
 
-![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image20.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image20.png)
+![README/image20.png](README/image20.png)
 
 ### HOUR COLUMN
 
 - MOST TRAFFIC HOUR
 
-![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image21.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image21.png)
+![README/image21.png](README/image21.png)
 
-![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image22.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image22.png)
+![README/image22.png](README/image22.png)
 
 As we can see from the above graph, there are usually two peaks in a day which happens around 10 AM to 2PM and then again the peak starts from 6PM to 8PM. Knowing the marketing spent through out the day, and conversion rate arouund these hours, we can target campaigns (especially conversion campaigns) to run specifically targeting highly converting hours.
 
@@ -462,11 +462,11 @@ This peak hours generally translates to lunch break, and post work. Thus having 
 
 - MOST TRAFFIC DAY
 
-![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image23.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image23.png)
+![README/image23.png](README/image23.png)
 
 - Traffic hour by day
     
-    ![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image24.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image24.png)
+    ![README/image24.png](README/image24.png)
     
 
 ### Brand and User_id Columns
@@ -474,19 +474,19 @@ This peak hours generally translates to lunch break, and post work. Thus having 
 - We have 713100 unique customer.
 - EXPLORE THE BRANDS WE HAVE AND THIER FREQUENCY
 
-![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image25.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image25.png)
+![README/image25.png](README/image25.png)
 
 - CALCULATE HOW MANY USERS PURCHASED A SPECIFIC BRAND
 
-![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image26.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image26.png)
+![README/image26.png](README/image26.png)
 
 - CALCULATE HOW MANY USERS PURSHASED THE TOP 10 BRANDS
 
-![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image27.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image27.png)
+![README/image27.png](README/image27.png)
 
 - Calculate customer lifetime value (CLV)and loyalty score
 
-![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image28.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image28.png)
+![README/image28.png](README/image28.png)
 
 ## **6. Ecommerce RFM_Analysis**
 
@@ -518,17 +518,17 @@ To design RFM table we will go through some step
 
 the quantity column is a column we have added to determine the customer loyalty to this brand or product, based on the amount the customer has purchased of this product on this day.
 
-![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image29.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image29.png)
+![README/image29.png](README/image29.png)
 
 This DataFrame display the quantity that the user purchased of this product on specific date with at a certain price .
 
 1. calculate the total price for each user
 
-![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image30.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image30.png)
+![README/image30.png](README/image30.png)
 
 1. calculate Recency, Frequency, Monetary.
     
-    ![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image31.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image31.png)
+    ![README/image31.png](README/image31.png)
     
 - 1st we calculate the last day of purchases for each user by subtracting the maximum date from today date to get the Recency . {'event_time':lambda date :(today_date - date.max()).days}
 - 2nd we calculate number of product that purchased by each customer
@@ -537,7 +537,7 @@ This DataFrame display the quantity that the user purchased of this product on s
 - {'total_price': lambda total_price : total_price.sum()}
 1. Calculate the Recency _Score , Frequency_Score and Monetart_Score
     
-    ![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image32.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image32.png)
+    ![README/image32.png](README/image32.png)
     
 
 We dividing the data into equal parts from 1 to 5. The part that contains the large numbers takes 5 and the part that contains the small numbers takes 1, except in the recency, the matter is done in reverse because the customer that bought from 50 days is not better than the customer which bought from 1 day.
@@ -546,11 +546,11 @@ For example, if we have a user who has 1 in the recency and 5 in the monetary, t
 
 1. Segmentation of customer by rfm_score
     
-    ![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image33.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image33.png)
+    ![README/image33.png](README/image33.png)
     
     We have only used the frequency score and recency_score, and we have not used the monetary score because we believe that taking money into consideration is completely unfair. There are those who have made several purchases on the site but with small amounts, and there are those who have made only one purchase but with a large amount. Therefore, we did not take money into confederation.
     
-    ![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image34.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image34.png)
+    ![README/image34.png](README/image34.png)
     
     As we can see, the hibernating segment is the most prominent our data, which means there are many customers on the verge of churning, and the least segment we have is the new customers, which means there aren't many new customers entering the website. After analyzing, we discovered that the reason for the lack of new customers entering and many customers churning could be due to the high average prices
     
@@ -591,13 +591,13 @@ We apply Apriori algorithm  Rules for products purchased on the same ses
 
 Creating a function which returns 0 if the item was not in that transaction & 1  means if the item present in that transaction
 
-![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image35.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image35.png)
+![README/image35.png](README/image35.png)
 
-![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image36.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image36.png)
+![README/image36.png](README/image36.png)
 
-![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image37.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image37.png)
+![README/image37.png](README/image37.png)
 
-![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image38.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image38.png)
+![README/image38.png](README/image38.png)
 
 ### How to read the above data?
 
@@ -636,12 +636,12 @@ To build SVD algorithm :
     And this is the feature that our algorithm will predict, so if we give it the user ID and the product ID, it can tell us the user will buy as much as any of this product.
     
 
-![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image39.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image39.png)
+![README/image39.png](README/image39.png)
 
 1. importing the necessary libraries (Dataset, Reader, SVD, and cross_validate from Surprise) and loading the data from a CSV file called "ratings.csv" using the Reader class.
 2. splitting the data into training and testing sets using the build_full_trainset method, setting up the SVD algorithm with some hyperparameters, and using cross_validate to evaluate the model's performance. Then, we fit the SVD algorithm to the training data using the fit method.
 
-![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image40.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image40.png)
+![README/image40.png](README/image40.png)
 
 We get a mean Root Mean Sqaure Error of 0.18 approx. which is more than good enough for our case. Let us now train on our dataset and arrive at predictions.
 
@@ -651,7 +651,7 @@ Lower RMSE values indicate better performance.
 
 Lets try the model with any user_id and unseen product_id to check the number of purchases she/he has gives.
 
-![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image41.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image41.png)
+![README/image41.png](README/image41.png)
 
 if the SVD collaborative filter predicts a number_of_purchase is 1.01 for the product with ID 5788423 and user with ID 374211459, it means that the algorithm believes that this user who has not yet purchased this product is likely to purchase it around 1 times The predicted purchase is based on the patterns in the purchasing data observed for other users and products. Specifically, the model has learned a set of latent factors that capture
 
@@ -674,7 +674,7 @@ To calculate brand loyalty, we need some feature engineering:
 3. Group the data by brand and count the number of times a product was viewed for each brand:
 4. Calculate the brand loyalty as the ratio of purchases to total cart events and total views event :
     
-    ![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image42.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image42.png)
+    ![README/image42.png](README/image42.png)
     
     Why we calculate the number of times a brand is viewed, the number of times a product is carted, and the number of times a purchase is made for each brand to determine brand loyalty?
     
@@ -684,13 +684,13 @@ To calculate brand loyalty, we need some feature engineering:
     
     by normalize brand score to give us a score between 1 and 0, where a score of 1.0 indicates perfect brand loyalty (i.e., all cart events resulted in purchases), while a score of 0.0 indicates no brand loyalty (i.e., no purchases were made for any cart events).
     
-    ![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image43.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image43.png)
+    ![README/image43.png](README/image43.png)
     
     Now we have data contains number of purchases, number of cart, number of views, brand score and normalized score
     
     for brand score called loyalty_score:
     
-    ![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image44.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image44.png)
+    ![README/image44.png](README/image44.png)
     
     It is not necessarily the case that the brand with the highest sales is the same brand that has the highest customer loyalty. There is a difference between the brand with the highest sales and the brand that customers are most loyal to. For example, the famous car brand Rolls-Royce does not have the highest sales, not even in the top five. This is because the company produces a limited number of cars each year. However, Rolls-Royce has the highest degree of loyalty among all brands.
     
@@ -699,7 +699,7 @@ To calculate brand loyalty, we need some feature engineering:
 
 # **Dashboard 1 (Ecommerce Products & Brands Sales)**
 
-![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image45.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image45.png)
+![README/image45.png](README/image45.png)
 
 ## Event type Percentage Chart
 
@@ -743,7 +743,7 @@ To calculate brand loyalty, we need some feature engineering:
 
 # **Dashboard 2 (Ecommerce Customers’ Segments)**
 
-![Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image46.png](Ecommerce_Behavior_DOCUMENTAION%20784ed7e173e04d0d94ed6790e69e5e8f/image46.png)
+![README/image46.png](README/image46.png)
 
 ## Card Visuals to show:
 
