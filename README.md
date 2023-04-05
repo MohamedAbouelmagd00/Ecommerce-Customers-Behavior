@@ -1,7 +1,6 @@
 # Ecommerce_Behavior_DOCUMENTAION
+
 This project is about an e-commerce platform that provides various features such as online storefronts, shopping carts, payment gateways, and order management systems. The data provided is from a medium cosmetics online store hosted by REES46 niche-specific personalization engine Platform. The data contains behavior data for two months (October and November 2019) and each row in the file represents an event. All events are related to products and users. The file structure includes properties such as event time, event type, product ID, category ID, category code, brand, price, user ID and user session. The business requirements section mentions that the data can be used to support the business in various ways.
-
-
 
 ### DASHBOARDS LINK
 https://app.powerbi.com/view?r=eyJrIjoiNzBiOGUxMjgtNTkwMy00YWUwLWI2YTAtNmVmYjJiZDY0NzA4IiwidCI6ImJhYzk0Y2Y0LTdkMjAtNDNhNC05NzFjLThhOTgxNWExZDE3ZiJ9
