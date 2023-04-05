@@ -8,37 +8,29 @@ https://app.powerbi.com/view?r=eyJrIjoiNzBiOGUxMjgtNTkwMy00YWUwLWI2YTAtNmVmYjJiZ
 
 # **Table of Contents**
 
-[Overview ](about:blank#overview)
+###[Overview ](about:blank#overview)
 
-**[File structure** ](about:blank#file-structure)
+#### [File structure ](about:blank#file-structure)
 
-**[Business Requirements** ](about:blank#business-requirements)
+#### [Business Requirements](about:blank#business-requirements)
 
-**[Workflow** ](about:blank#workflow)
+#### [Workflow ](about:blank#workflow)
 
-**[Work Deliverables** ](about:blank#work-deliverables)
+#### [Work Deliverables ](about:blank#work-deliverables)
 
-[Libraries Used ](about:blank#libraries-used)
+### [Libraries Used ](about:blank#libraries-used)
 
-[Work Procedures ](about:blank#work-procedures)
+### [Work Procedures ](about:blank#work-procedures)
 
-**[1.** **Ecommerce Data_Validation** ](about:blank#ecommerce-data_validation)
-
-**[2.** **Ecommerce Predicting_brand_col_RandomForest** ](about:blank#ecommerce-predicting_brand_col_randomforest)
-
-**[3.** **Ecommerce CNN_brand_Prediction** ](about:blank#ecommerce-cnn_brand_prediction)
-
-**[4.** **Ecommerce Data_Preprocessing** ](about:blank#ecommerce-data_preprocessing)
-
-**[5.** **Ecommerce Data_Manipulation** ](about:blank#ecommerce-data_manipulation)
-
-**[6.** **Ecommerce RFM_Analysis** ](about:blank#ecommerce-rfm_analysis)
-
-**[7.** **Ecommerce Association_Rules** ](about:blank#ecommerce-association_rules)
-
-**[8. Ecommerce Recommendation_System** ](about:blank#_Toc131245101)
-
-**[9. Ecommerce Brand_Loyality** ](about:blank#ecommerce-brand_loyality)
+####[1.** **Ecommerce Data_Validation** ](about:blank#ecommerce-data_validation)
+####[2.** **Ecommerce Predicting_brand_col_RandomForest** ](about:blank#ecommerce -predicting_brand_col_randomforest)
+#### [3. **Ecommerce CNN_brand_Prediction** ](about:blank#ecommerce-cnn_brand_prediction)
+#### [**4.** **Ecommerce Data_Preprocessing** ](about:blank#ecommerce-data_preprocessing)
+#### [**5.** **Ecommerce Data_Manipulation** ](about:blank#ecommerce-data_manipulation)
+#### [**6.** **Ecommerce RFM_Analysis** ](about:blank#ecommerce-rfm_analysis)
+#### [**7.** **Ecommerce Association_Rules** ](about:blank#ecommerce-association_rules)
+#### [**8. Ecommerce Recommendation_System** ](about:blank#_Toc131245101)
+#### [**9. Ecommerce Brand_Loyality** ](about:blank#ecommerce-brand_loyality)
 
 [Dashboard 1 (Ecommerce Products & Brands Sales) ](about:blank#dashboard-1-ecommerce-products-brands-sales)
 
