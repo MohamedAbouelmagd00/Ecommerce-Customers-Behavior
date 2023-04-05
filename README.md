@@ -22,8 +22,8 @@ https://app.powerbi.com/view?r=eyJrIjoiNzBiOGUxMjgtNTkwMy00YWUwLWI2YTAtNmVmYjJiZ
 
 ### [Work Procedures ](about:blank#work-procedures)
 
-- [**1. Ecommerce Data_Validation** ]
-- [**2. Ecommerce Predicting_brand_col_RandomForest** ](about:blank#ecommerce -predicting_brand_col_randomforest)
+- **1. Ecommerce Data_Validation** 
+- **2. Ecommerce Predicting_brand_col_RandomForest** 
 - [**3. Ecommerce CNN_brand_Prediction** ](about:blank#ecommerce-cnn_brand_prediction)
 - [**4.** **Ecommerce Data_Preprocessing** ](about:blank#ecommerce-data_preprocessing)
 - [**5.** **Ecommerce Data_Manipulation** ](about:blank#ecommerce-data_manipulation)
