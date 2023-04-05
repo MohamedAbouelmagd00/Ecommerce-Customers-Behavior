@@ -22,8 +22,8 @@ https://app.powerbi.com/view?r=eyJrIjoiNzBiOGUxMjgtNTkwMy00YWUwLWI2YTAtNmVmYjJiZ
 
 ### [Work Procedures ](about:blank#work-procedures)
 
-#### [**1.** **Ecommerce Data_Validation** ](about:blank#ecommerce-data_validation)
-#### [**2.** **Ecommerce Predicting_brand_col_RandomForest** ](about:blank#ecommerce -predicting_brand_col_randomforest)
+#### [**1. **Ecommerce Data_Validation** ](about:blank#ecommerce-data_validation)
+#### [**2. **Ecommerce Predicting_brand_col_RandomForest** ](about:blank#ecommerce -predicting_brand_col_randomforest)
 #### [**3. **Ecommerce CNN_brand_Prediction** ](about:blank#ecommerce-cnn_brand_prediction)
 #### [**4.** **Ecommerce Data_Preprocessing** ](about:blank#ecommerce-data_preprocessing)
 #### [**5.** **Ecommerce Data_Manipulation** ](about:blank#ecommerce-data_manipulation)
@@ -32,33 +32,24 @@ https://app.powerbi.com/view?r=eyJrIjoiNzBiOGUxMjgtNTkwMy00YWUwLWI2YTAtNmVmYjJiZ
 #### [**8. Ecommerce Recommendation_System** ](about:blank#_Toc131245101)
 #### [**9. Ecommerce Brand_Loyality** ](about:blank#ecommerce-brand_loyality)
 
-[Dashboard 1 (Ecommerce Products & Brands Sales) ](about:blank#dashboard-1-ecommerce-products-brands-sales)
+### [Dashboard 1 (Ecommerce Products & Brands Sales) ](about:blank#dashboard-1-ecommerce-products-brands-sales)
 
-[1. Event type Percentage Chart ](about:blank#event-type-percentage-chart)
+- [1. Event type Percentage Chart ](about:blank#event-type-percentage-chart)
+- [2. Average price of product for each event type ](about:blank#average-price-of-product-for-each-event-type)
+- [3. Top 10 brands in Number of Purchases. ](about:blank#top-10-brands-in-number-of-purchases.)
+- [4. Card Visuals to show: ](about:blank#card-visuals-to-show)
+- [5. Sales Distribution for each Week Day per hour ](about:blank#sales-distribution-for-each-week-day-per-hour)
+- [6. Sales of each week of Month Per day ](about:blank#sales-of-each-week-of-month-per-day)
+- [7. Sales count for each Month per time ](about:blank#sales-count-for-each-month-per-time)
+- [8. Average price for Most price variance products per time ](about:blank#average-price-for-most-price-variance-products-per-time)
 
-[2. Average price of product for each event type ](about:blank#average-price-of-product-for-each-event-type)
+### [Dashboard 2 (Ecommerce Customers’ Segments) ](about:blank#dashboard-2-ecommerce-customers-segments)
 
-[3. Top 10 brands in Number of Purchases. ](about:blank#top-10-brands-in-number-of-purchases.)
+- [1. Card Visuals to show: ](about:blank#card-visuals-to-show-1)
+- [2. Tree Map of Customers Segments ](about:blank#tree-map-of-customers-segments)
+- [3. Purchasing Count of top 5 brands per each segment. ](about:blank#purchasing-count-of-top-5-brands-per-each-segment.)
 
-[4. Card Visuals to show: ](about:blank#card-visuals-to-show)
-
-[5. Sales Distribution for each Week Day per hour ](about:blank#sales-distribution-for-each-week-day-per-hour)
-
-[6. Sales of each week of Month Per day ](about:blank#sales-of-each-week-of-month-per-day)
-
-[7. Sales count for each Month per time ](about:blank#sales-count-for-each-month-per-time)
-
-[8. Average price for Most price variance products per time ](about:blank#average-price-for-most-price-variance-products-per-time)
-
-[Dashboard 2 (Ecommerce Customers’ Segments) ](about:blank#dashboard-2-ecommerce-customers-segments)
-
-[1. Card Visuals to show: ](about:blank#card-visuals-to-show-1)
-
-[2. Tree Map of Customers Segments ](about:blank#tree-map-of-customers-segments)
-
-[3. Purchasing Count of top 5 brands per each segment. ](about:blank#purchasing-count-of-top-5-brands-per-each-segment.)
-
-[Final Insights ](about:blank#final-insights)
+### [Final Insights ](about:blank#final-insights)
 
 E-commerce refers to the buying and selling of goods or services through electronic means, primarily over the internet. It has revolutionized the way people conduct business by enabling consumers to shop from anywhere and at any time, and businesses to reach a global audience. E-commerce platforms provide various features such as online storefronts, shopping carts, payment gateways, and order management systems, among others. The industry has seen tremendous growth in recent years, driven by advancements in technology, increasing consumer demand for convenience and flexibility.
 
